@@ -1,0 +1,1283 @@
+/* SIDEBAR - CSS */
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.container .sidebar {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 20%;
+  height: 100vh;
+  box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar .nav {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .nav .navlink {
+  text-decoration: none;
+  font-size: 10px;
+  margin: 20px 0px;
+  padding: 5px 20px;
+  color: #2b2a2a;
+  transition: 0.3s ease-out;
+  border-radius: 10px;
+}
+.sidebar .navlink:hover {
+  transform: scale(1.1);
+  background-color: mediumslateblue;
+  border-radius: 10px;
+}
+.sidebar .navlink:hover > h1 {
+  color: white;
+}
+.sidebar .navlink > h1 > img {
+  display: inline-block;
+  margin-right: 10px;
+}
+.sidebar > #homeMath {
+  position: absolute;
+  top: 3rem;
+}
+.sidebar .active {
+  background-color: mediumslateblue;
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.sidebar .active:hover {
+  color: white;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 768px) {
+  .container .sidebar {
+    display: none;
+  }
+  .container .mobile-sidebar {
+    width: 100%;
+  }
+  .container .mobile-sidebar .nav2 {
+    position: relative;
+    bottom: 4rem;
+  }
+  .container .mobile-sidebar .nav2 .navlink {
+    font-size: 7px;
+    padding: 0;
+  }
+
+  .mobile-sidebar > #homeMath2 {
+    z-index: 1999;
+  }
+
+  .container .imtahanlarContent {
+    width: 100%;
+    left: 0;
+  }
+  .container .imtahanlarContent-2 {
+    display: none;
+  }
+  .container .imtahanlarContent .search-area {
+    width: 150%;
+  }
+  .search-area .options {
+    position: relative;
+    right: 15.5rem;
+    top: 3rem;
+  }
+  .container .header {
+    width: 100%;
+    left: 0;
+  }
+  .dashboard-contents {
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-1 {
+    width: 50%;
+    left: 60px;
+    position: relative;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-1 .details {
+    width: 100%;
+    left: 1rem;
+    bottom: 0;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-1 .details .harry {
+    font-size: 15px;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-1 .details .age {
+    font-size: 13px;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-1 .details .parents {
+    font-size: 13px;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-1 .details .goals {
+    font-size: 11px;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-1 .details h3 > img {
+    display: none;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-1 #profile {
+    width: 80%;
+    left: auto;
+    height: 55%;
+    border-radius: 20px;
+    top: 0;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-2 {
+    position: relative;
+    left: 5rem;
+    font-size: 10px;
+    width: 40%;
+    height: 60%;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-2 > span {
+    font-size: 12px;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-2 > img {
+    display: none;
+  }
+}
+/* RESPONSIVE - END */
+
+/* MOBILE SIDEBAR */
+.container .mobile-sidebar {
+  top: 5.5rem;
+  position: fixed;
+  transition: 0.2s ease-out;
+  left: -350px;
+  width: 70%;
+  height: 100%;
+  z-index: 20;
+  background-color: mediumslateblue;
+  opacity: 90%;
+}
+.container #mobSideBtn {
+  top: 5.5rem;
+  z-index: 11;
+  position: fixed;
+  color: white;
+  font-weight: 1000;
+  border: 1px solid #cecece;
+  border-radius: 10px;
+  font-size: 35px;
+  padding: 0px 5px;
+  cursor: pointer;
+  transition: 0.1s ease-out;
+  background-color: mediumorchid;
+}
+.container #mobSideBtn2 {
+  transition: 0.2s ease-out;
+  right: 7.9rem;
+  top: 5.6rem;
+  z-index: 21;
+  position: fixed;
+  color: white;
+  font-weight: 1000;
+  border: 1px solid #cecece;
+  border-radius: 10px;
+  font-size: 35px;
+  padding: 0px 5px;
+  cursor: pointer;
+  transition: 0.1s ease-out;
+  background-color: mediumorchid;
+}
+
+#mobSideBtn:hover {
+  background-color: mediumslateblue;
+  scale: 1.1;
+}
+#mobSideBtn:active {
+  transform: translateY(5px);
+}
+#mobSideBtn2:hover {
+  background-color: mediumslateblue;
+  scale: 1.1;
+}
+#mobSideBtn2:active {
+  transform: translateY(5px);
+}
+/* MOBILE SIDEBAR NAVLINKS */
+.mobile-sidebar .nav2 {
+  display: flex;
+  flex-direction: column;
+}
+.mobile-sidebar .nav2 .navlink {
+  position: relative;
+  top: 8rem;
+  text-decoration: none;
+  font-size: 8px;
+  margin: 20px 0px;
+  padding: 4px 10px;
+  color: #2b2a2a;
+  transition: 0.3s ease-out;
+  border-radius: 10px;
+}
+.mobile-sidebar .navlink:hover {
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+.mobile-sidebar .navlink > h1 > img {
+  display: inline-block;
+  margin-right: 10px;
+}
+.mobile-sidebar > #homeMath2 {
+  position: absolute;
+  top: 3rem;
+}
+.mobile-sidebar .active {
+  background-color: white;
+  color: blueviolet;
+  font-size: 10px;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.mobile-sidebar .active:hover {
+  color: blueviolet;
+}
+
+/* HEADER - CSS */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  right: 0;
+  background-color: #ffffff;
+  height: 90px;
+  position: fixed;
+  z-index: 1;
+}
+.header > h1 {
+  color: #2b2a2a;
+  font-size: 25px;
+  position: absolute;
+  left: 3rem;
+}
+.header .profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  left: 20rem;
+  cursor: pointer;
+}
+.header .profile > #profile {
+  display: block;
+  margin-right: 15px;
+}
+.header .profile {
+  color: black;
+  font-size: 17px;
+}
+
+/* PROFILE IS OPENED -- PROFIL IKONU ACIQ IKEN */
+.header .OpenProfile {
+  padding: 10px 35px;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  position: relative;
+  left: 16rem;
+  top: 6rem;
+  width: 150px;
+  height: 150px;
+  z-index: 0;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.25);
+}
+
+/* DASHBOARD -- CONTENT -- CSS */
+.container .dashboard-contents {
+  position: absolute;
+  width: 80%;
+  height: 100vh;
+  right: 0;
+  top: 5rem;
+  background-color: white;
+  z-index: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container .dashboard-contents .Up-Box-Wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 45%;
+}
+.Up-Box-Wrapper .Box-1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 450px;
+  height: 210px;
+  background-color: white;
+  box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.1);
+}
+.Up-Box-Wrapper .Box-1 > #profile {
+  position: absolute;
+  left: 0;
+  width: 160px;
+  height: 190px;
+  border-radius: 30px;
+}
+.Up-Box-Wrapper .Box-1 > .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  right: 4rem;
+  font-size: 15px;
+}
+.Up-Box-Wrapper .Box-1 .details .harry {
+  font-size: 22px;
+}
+.Up-Box-Wrapper .Box-1 .details .age {
+  font-size: 15px;
+  color: #777575;
+}
+.Up-Box-Wrapper .Box-1 .details .parents {
+  font-size: 15px;
+  color: #8f8c8c;
+}
+.Up-Box-Wrapper .Box-1 .details > h3 > img {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.Up-Box-Wrapper .Box-1 .details > h3 > .goals {
+  color: white;
+  background-color: #ebb44a;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.Up-Box-Wrapper .Box-2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 450px;
+  height: 210px;
+  background-color: white;
+  box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.1);
+}
+.Up-Box-Wrapper .Box-2 > span {
+  margin: 10px 0px;
+  position: relative;
+  top: 4.3rem;
+  right: 0rem;
+  font-size: 20px;
+}
+.Up-Box-Wrapper .Box-2 > img {
+  margin: 10px 0px;
+  position: relative;
+  right: 10rem;
+  bottom: 4rem;
+  width: 25px;
+}
+.Up-Box-Wrapper .Box-2 .see-more {
+  position: relative;
+  bottom: 3.5rem;
+}
+
+/* DOWN-BOX-WRAPPER */
+/* DOWN-BOX-WRAPPER */
+/* DOWN-BOX-WRAPPER */
+.dashboard-contents .Down-Box-Wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.Down-Box-Wrapper .daha-etrafliBtn {
+  background-color: mediumslateblue;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 3px 10px;
+  margin: 5px 0px;
+  cursor: pointer;
+  transition: 0.1s ease-out;
+}
+.Down-Box-Wrapper .daha-etrafliBtn:hover {
+  background-color: white;
+  scale: 1.2;
+  color: black;
+  font-weight: 1000;
+}
+
+/* IMTAHANLAR PAGE - CONTENT --- CSS (1) */
+.imtahanlarContent .search-area {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+.imtahanlarContent .search-area .input {
+  position: relative;
+  width: 100vh;
+}
+.imtahanlarContent .search-area .input > #search-icon {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.3rem;
+}
+.imtahanlarContent .search-area .input input[type="search"] {
+  width: 65%;
+  height: 2.4rem;
+  padding-left: 40px;
+  padding-right: 15px;
+  border-radius: 10px;
+  border: transparent;
+  box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.15);
+}
+.imtahanlarContent .search-area .options {
+  display: flex;
+}
+.options #select1 {
+  margin: 0px 10px;
+  width: 100px;
+  border: transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.15);
+}
+
+.options #select2 {
+  width: 100px;
+  border: transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.15);
+}
+.imtahanlarContent {
+  position: absolute;
+  width: 80%;
+  height: 100vmax;
+  right: 0;
+  top: 5rem;
+  background-color: whitesmoke;
+  z-index: 0;
+}
+
+/* imtahanlar boxes */
+.imtahanlarContent .Boxes {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: relative;
+}
+.imtahanlarContent .Boxes-area {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imtahanlarContent .Boxes .title1 {
+  color: #d44949;
+}
+.imtahanlarContent .Boxes .title2 {
+  color: #d44949;
+  font-size: 13px;
+}
+.Boxes .dahaEtrafliBtn {
+  background-color: mediumslateblue;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.Boxes .dahaEtrafliBtn:hover {
+  background-color: rgb(141, 141, 141);
+}
+.Boxes .testeBaslaBtn:hover {
+  background-color: rgb(91, 73, 189);
+}
+.Boxes .testeBaslaBtn {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.imtahanlarContent .Box-1 {
+  display: grid;
+  grid-auto-flow: row;
+  margin: 10px;
+}
+
+.imtahanlarContent .Box-1 .question {
+  color: #d44949;
+  font-size: 14px;
+}
+.imtahanlarContent .Box-1 .name {
+  color: #d44949;
+  position: relative;
+  left: 8rem;
+  font-size: 14px;
+  bottom: 1.1rem;
+}
+/* release = 'BURAXILIŞ' */
+.imtahanlarContent .Box-1 .release {
+  color: black;
+  font-weight: 1000;
+  letter-spacing: 1px;
+}
+.imtahanlarContent .Box-1 .daha-etrafliBtn {
+  width: 50%;
+  left: 7.5rem;
+  top: 0rem;
+  position: relative;
+  color: #675af0;
+  padding: 5px 10px;
+  border: 1px solid #675af0;
+  border-radius: 10px;
+  transition: 0.2s ease-out;
+  z-index: 10;
+}
+.imtahanlarContent .Box-1 .teste-baslaBtn {
+  width: 50%;
+  right: 0.5rem;
+  font-size: 12px;
+  bottom: 1.9rem;
+  position: relative;
+  color: #675af0;
+  padding: 5px 10px;
+  border: 1px solid #675af0;
+  border-radius: 10px;
+  transition: 0.2s ease-out;
+  z-index: 10;
+}
+.imtahanlarContent .Box-1 .daha-etrafliBtn:hover {
+  background-color: mediumslateblue;
+  color: white;
+  cursor: pointer;
+}
+.imtahanlarContent .Box-1 #progressBar {
+  display: block;
+  margin-top: 30px;
+}
+.imtahanlarContent .Box-1 .barDetail1 {
+  font-size: 11px;
+  position: relative;
+  bottom: 2rem;
+}
+.imtahanlarContent .Box-1 .barDetail2 {
+  font-size: 11px;
+  position: relative;
+  bottom: 3rem;
+  left: 13.5rem;
+}
+
+/* imtahanlar -- content 2 -- CSS */
+.imtahanlarContent-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 90rem;
+  z-index: 0;
+  background-color: whitesmoke;
+}
+.imtahanlarContent-2 .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  height: 95%;
+  box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.imtahanlarContent-2 .wrapper #image1 {
+  position: absolute;
+  right: 5rem;
+  top: 5rem;
+  border-radius: 20px 30px 50px 100px;
+  width: 250px;
+  height: 160px;
+}
+.imtahanlarContent-2 .text {
+  position: absolute;
+  display: flex;
+  top: 5rem;
+  left: 5rem;
+  flex-direction: column;
+}
+.imtahanlarContent-2 .wrapper .teste-baslaBtn {
+  padding: 8px 15px;
+  border-radius: 10px;
+  background-color: mediumslateblue;
+  border: 1px solid #cecece;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  position: absolute;
+  top: 17rem;
+  left: 5rem;
+}
+.imtahanlarContent-2 .wrapper .teste-baslaBtn:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+.imtahanlarContent-2 #wrapper-img {
+  position: absolute;
+  top: 35rem;
+  width: 55%;
+}
+
+.imtahanlarContent-2 .reyting {
+  position: absolute;
+  left: 5rem;
+  font-size: 22px;
+  top: 45rem;
+}
+.imtahanlarContent-2 .Reyting-area {
+  top: 23rem;
+  position: relative;
+  font-size: 25px;
+  letter-spacing: 8px;
+}
+.Reyting-area .reytings {
+  border-bottom: 1px solid #cecece;
+  margin: 30px 0px;
+  background-color: rgb(243, 243, 243);
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.Reyting-area .reytings .date {
+  color: #d44949;
+}
+.imtahanlarContent-2 .reyting-box {
+  position: absolute;
+  left: 10rem;
+  font-size: 10px;
+  width: 70%;
+  display: flex;
+  top: 55rem;
+  background-color: white;
+  padding: 15px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.15);
+}
+.imtahanlarContent-2 .reyting-box2 {
+  position: absolute;
+  left: 10rem;
+  font-size: 10px;
+  width: 70%;
+  display: flex;
+  top: 65rem;
+  background-color: white;
+  padding: 15px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.15);
+}
+.imtahanlarContent-2 .reyting-box3 {
+  position: absolute;
+  left: 10rem;
+  font-size: 10px;
+  width: 70%;
+  display: flex;
+  top: 75rem;
+  background-color: white;
+  padding: 15px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.15);
+}
+.imtahanlarContent-2 .reyting-box4 {
+  position: absolute;
+  left: 10rem;
+  font-size: 10px;
+  width: 70%;
+  display: flex;
+  top: 85rem;
+  background-color: white;
+  padding: 15px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.15);
+}
+
+/* ONLAYN VIDEOLAR - PAGE - CSS - CONTENT ---- */
+.onlayn-videolar-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  position: absolute;
+  right: 0;
+  top: 5rem;
+  height: 100vh;
+}
+
+.onlayn-videolar-content .videos .Video {
+  border-radius: 30px;
+  width: 50%;
+  margin: 20px;
+}
+.onlayn-videolar-content .videos .title {
+  color: #2b2a2a;
+  font-size: 25px;
+  margin-left: 90px !important;
+}
+.onlayn-videolar-content .videos .videonuIzle {
+  padding: 5px 30px;
+  background-color: mediumslateblue;
+  border: 1px solid rgba(0, 0, 0, 0.39);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.1s ease-out;
+  margin-left: 120px !important;
+}
+.onlayn-videolar-content .videos .videonuIzle:hover {
+  background-color: mediumpurple;
+  font-weight: 1000;
+}
+.videonuIzle:active {
+  transform: translateY(5px);
+}
+
+.onlayn-videolar-content .videos {
+  width: 100%;
+  height: 10%;
+}
+
+/* SCORE-BOARD CONTENTS ==== CSS */
+.score-board {
+  width: 80%;
+  height: 100vmax;
+  background-color: whitesmoke;
+  position: absolute;
+  right: 0;
+  top: 5.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px;
+  justify-content: space-around;
+  border-bottom: 5px solid #cecece;
+}
+
+.items img {
+  margin-right: 10px;
+}
+
+.name,
+.point,
+.quotes {
+  margin: 20px 50px;
+  font-size: 20px;
+}
+
+.name {
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.point {
+  color: green;
+}
+
+.quotes {
+  font-style: italic;
+  font-weight: lighter;
+}
+.score-board .table {
+  display: flex;
+  position: relative;
+  bottom: 68rem;
+  font-size: 12px;
+  width: 80%;
+  height: auto;
+  background-color: #cecece;
+  padding: 5px;
+}
+.score-board .table .exp {
+  position: relative;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+.score-board .table .name {
+  position: relative;
+  right: 0rem;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+/* THE END --- ABOUT (HAQQIMIZDA) --- CONTENT --- CSS */
+.about-content {
+  position: absolute;
+  top: 6rem;
+  right: 0rem;
+  background-color: whitesmoke;
+  width: 80%;
+  height: 100vh;
+  z-index: 0;
+}
+.about-content .profil-page {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-content .details {
+  position: relative;
+  top: 3rem;
+  left: 4rem;
+}
+.about-content .text {
+  position: relative;
+  left: 30rem;
+  top: 3rem;
+}
+
+/* IMTAHANLAR TEST SEHIFELERI */
+.testeBasla {
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+  position: relative;
+}
+.header-pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+
+.header-pages .header-left > h1 > .back {
+  font-size: 30px;
+  margin: 0px 20px;
+}
+.header-pages .header-left > h1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+.header-pages .header-right {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  position: relative;
+  right: 30px;
+}
+.header-pages .header-right > h1 {
+  font-size: 20px;
+}
+.header-pages .header-right > img {
+  position: relative;
+  right: 15px;
+}
+
+/* container teste basla- ---  */
+.testeBasla .container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.1);
+  width: 95%;
+  height: 75%;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-content-pages {
+  position: absolute;
+  top: 2rem;
+  font-size: 18px;
+}
+.testeBasla .container .header-down-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20%;
+  position: relative;
+  bottom: 5rem;
+}
+.header-down-content .telebe-adi {
+  display: flex;
+  flex-direction: column;
+}
+.telebe-adi > input {
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid #cecece;
+  margin: 5px 0px;
+  padding: 0px 10px;
+}
+.header-down-content .imtahan-vaxti {
+  display: flex;
+  flex-direction: column;
+}
+.imtahan-vaxti > input {
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  border: 1px solid #cecece;
+  margin: 5px 0px;
+  padding: 0px 10px;
+}
+.header-down-content .suallarin-sayi {
+  display: flex;
+  flex-direction: column;
+}
+.suallarin-sayi > input {
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  border: 1px solid #cecece;
+  margin: 5px 0px;
+  padding: 0px 10px;
+}
+
+.testeBasla .container .main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0rem;
+}
+.main-content > img {
+  width: 30%;
+}
+.main-content > p {
+  text-align: center;
+  font-weight: 1000;
+}
+.main-content > .startBtn {
+  padding: 5px 30px;
+  margin: 5px 0px;
+  border-radius: 10px;
+  background-color: mediumslateblue;
+  border: 1px solid #cecece;
+  color: white;
+  cursor: pointer;
+  transition: 0.1s ease-out;
+}
+.main-content > .startBtn:hover {
+  background-color: white;
+  color: black;
+  font-weight: 1000;
+  scale: 1.2;
+}
+.main-content > .startBtn:active {
+  transform: translateX(15px);
+}
+
+/* ikinci sehife */
+.page2Container {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100vmax;
+  position: relative;
+}
+.page2Container .content-page2 {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.1);
+  width: 95%;
+  height: 100%;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  top: 52%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-page2 .infoArea {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 35rem;
+}
+.infoArea .box {
+  width: 205px;
+  height: 50px;
+  background-color: white;
+  box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.1);
+  position: relative;
+  left: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.infoArea .box > i {
+  margin-left: 10px;
+  font-size: 20px;
+  color: green;
+}
+.infoArea .box > h1 {
+  font-size: 15px;
+  color: #615d5d;
+  text-align: center;
+}
+
+.infoArea > span {
+  position: relative;
+}
+.infoArea > span > input {
+  position: relative;
+  left: 3rem;
+  width: 700px;
+  height: 40px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  border: 1px solid #cecece;
+  outline: none;
+}
+.infoArea > i {
+  position: absolute;
+  left: 44rem;
+  font-size: 25px;
+}
+
+.content-page2 .progressBar {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10rem;
+}
+.progressBar .progress-bar-fill {
+  background-color: green;
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid #cecece;
+  transition: 0.6s ease-out;
+}
+.buttons-pages {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 28.3rem;
+  bottom: 22rem;
+  z-index: 100;
+}
+.buttons-pages > button {
+  margin: 2px 0px;
+}
+
+.nextPage {
+  padding: 5px 10px;
+  background-color: mediumslateblue;
+  color: white;
+  border: 1px solid #cecece;
+  cursor: pointer;
+  transition: 0.1s ease-out;
+  border-radius: 5px;
+}
+.nextPage:hover {
+  background-color: white;
+  scale: 1.2;
+  font-weight: 1000;
+  color: black;
+}
+.nextPage:active {
+  transform: translateX(35px);
+}
+.backBtn {
+  padding: 5px 10px;
+  background-color: mediumslateblue;
+  color: white;
+  border: 1px solid #cecece;
+  cursor: pointer;
+  transition: 0.1s ease-out;
+  border-radius: 5px;
+}
+.backBtn:hover {
+  background-color: white;
+  scale: 1.2;
+  font-weight: 1000;
+  color: black;
+}
+.backBtn:active {
+  transform: translateX(-35px);
+}
+
+/* QUESTIONS CSS */
+.page2Container .content-page2 .questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin: 100px 0px;
+}
+.page2Container .content-page2 .questions > .question-box {
+  width: 30%;
+  height: 20%;
+  background-color: white;
+  position: absolute;
+  left: 9rem;
+  top: 20rem;
+}
+.content-page2 .questions > h1 {
+  color: #282828;
+  font-size: 20px;
+  position: relative;
+  right: 10rem;
+  bottom: 6rem;
+  border-bottom: 1px solid #cecece;
+}
+.content-page2 .questions > h1::before {
+  content: "1.";
+  position: absolute;
+  left: -1rem;
+}
+.content-page2 .questions > h2 {
+  color: #888585;
+  font-size: 15px;
+  font-weight: lighter;
+  position: relative;
+  right: 14.5rem;
+  bottom: 5rem;
+}
+.content-page2 .questions .variants {
+  position: relative;
+  top: 0rem;
+  right: 7rem;
+  font-size: 18px;
+}
+.content-page2 .questions .variants > .area {
+  background-color: white;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 3.5rem;
+  margin: 10px 0px;
+}
+.content-page2 .questions .variants > .area > span {
+  margin-left: 60px;
+}
+.content-page2 .questions .variants input[type="radio"] {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  left: 0;
+  margin-left: -50px;
+}
+
+.overlay-lastpage {
+  width: 100vmax;
+  height: 150%;
+  background-color: rgba(0, 0, 0, 0.692);
+  position: fixed;
+}
+.congratulations {
+  animation: going 1.5s forwards alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 25rem;
+  width: 85%;
+  left: 7.5%;
+  height: 100vh;
+  border-radius: 20%;
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px rgb(0, 0, 0, 0.2);
+}
+@keyframes going {
+  0% {
+    top: -50rem;
+  }
+  50% {
+    top: 20rem;
+  }
+  100% {
+    top: 25rem;
+  }
+}
+.congratulations > img {
+  transition: 0.5s ease-out;
+  animation: slow 3s infinite forwards;
+  position: absolute;
+  cursor: pointer;
+}
+.congratulations > h1 {
+  color: mediumslateblue;
+  font-weight: 1000;
+  bottom: 5rem;
+  position: absolute;
+}
+.congratulations > img:hover {
+  scale: 1.2;
+}
+@keyframes slow {
+  0% {
+    left: 250px;
+  }
+  50% {
+    left: 350px;
+  }
+  70% {
+    left: 650px;
+  }
+  100% {
+    left: 250px;
+  }
+}

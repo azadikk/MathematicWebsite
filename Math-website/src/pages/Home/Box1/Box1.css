@@ -1,0 +1,99 @@
+.Box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    top: 420px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.100);
+}
+.Box1 .area1 {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Box1 .area2 {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Box1 .area3 {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Box1 .area4 {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.Box1 span {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+.area1 img {
+    margin-top: 30px;
+    display: block;
+}
+.area1 h1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.Box1 .TesteBasla {
+    padding: 6px 10px;
+    position: absolute;
+    bottom: 1rem;
+    left: 0.5rem;
+    transition: 0.2s ease-out;
+    background-color: rgb(68, 46, 194);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.Box1 .DahaEtrafli {
+    padding: 6px 10px;
+    position: absolute;
+    bottom: 1rem;
+    right: 0.5rem;
+    background-color: white;
+    border: 1px solid mediumslateblue;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    border-radius: 10px;
+}

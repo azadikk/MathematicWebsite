@@ -1,0 +1,100 @@
+{
+  "exams": [
+    {
+      "id": 1,
+      "img": "dashboards.png",
+      "title1": "25 sual",
+      "title2": "Filankəsov Filankəs",
+      "title3": "9-cu sinif buraxılış",
+      "Button": "Daha ətraflı",
+      "Button2": "Testə başla"
+    }
+  ],
+
+  "reyting": [
+    {
+      "id": 1,
+      "logo": "crown.png",
+      "name": "Abdullayev Sənan",
+      "point": "25 Bal",
+      "date": "10/02/2023"
+    }
+  ],
+
+  "onlaynVideolarDetails": [
+    {
+      "id": 1,
+      "video": "mathvideo.mp4",
+      "title": "9-cu sinif buraxılış",
+      "button": "Videonu izlə"
+    }
+  ],
+
+  "boards": [
+    {
+      "id": 1,
+      "profile": "frame.png",
+      "name": "Abdullayev Sənan",
+      "point": "25",
+      "experience": "Excelent"
+    },
+    {
+      "id": 2,
+      "profile": "frame2.png",
+      "name": "Mehmet Yılmaz",
+      "point": "18",
+      "experience": "Good"
+    },
+    {
+      "id": 3,
+      "profile": "frame3.png",
+      "name": "Ali Demir",
+      "point": "22",
+      "experience": "Very Good"
+    },
+    {
+      "id": 4,
+      "profile": "frame4.png",
+      "name": "Ayşe Deniz",
+      "point": "15",
+      "experience": "Fair"
+    },
+    {
+      "id": 5,
+      "profile": "frame5.png",
+      "name": "Yilmaz Çetin",
+      "point": "20",
+      "experience": "Very Good"
+    },
+    {
+      "id": 6,
+      "profile": "frame6.png",
+      "name": "Kemal Tekin",
+      "point": "16",
+      "experience": "Fair"
+    },
+    {
+      "id": 7,
+      "profile": "frame7.png",
+      "name": "Azad Öztürk",
+      "point": "23",
+      "experience": "Very Good"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": 1,
+      "question": "EBOB və EKOB fərqləri nələrdir?",
+      "title": "Düzgün variantı seçin",
+      "variants": [
+        {
+          "A": "Lorem lorem lorem lo lo lorem lo lo lo",
+          "B": "Lorem lorem lorem lo lo lorem lo lo lo",
+          "C": "Lorem lorem lorem lo lo lorem lo lo lo",
+          "D": "Lorem lorem lorem lo lo lorem lo lo lo"
+        }
+      ]
+    }
+  ]
+}

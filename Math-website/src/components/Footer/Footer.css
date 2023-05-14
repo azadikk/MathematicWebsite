@@ -1,0 +1,158 @@
+body {
+    overflow-x: hidden;
+}
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0rem;
+    width: 100%;
+    height: 550px;
+    background-color: #30333D;
+}
+.Footer .container {
+    width: 80%;
+    margin: auto;
+    height: 50%;
+    position: relative;
+    border-bottom: 2px solid white;
+    background-color: #30333D;
+}
+.Footer .layout1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    width: 30%;
+}
+
+.Footer .layout1 > h1 {
+    color: #EBB44A;
+    margin: 20px 0px;
+}
+
+.layout1 > p {
+    color: white;
+}
+
+.Footer .layout2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width: 20%;
+}
+
+.Footer .layout2 > h1 {
+    color: #EBB44A;
+    margin: 20px 0px;
+}
+
+.layout2 > h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 5px 0;
+}
+
+.layout2 > h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Footer .layout3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    left: 65%;
+    top: 10%;
+    width: 30%;
+}
+
+.Footer .layout3 > h1 {
+    color: #EBB44A;
+    margin: 20px 0px;
+}
+
+.layout3 > h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 5px 0;
+}
+
+.layout3 > h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.Footer .footer-right-components {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    right: 16rem;
+    bottom: 3rem;
+}
+.footer-right-components .text1 > span {
+    color: #B4B4B4;
+    display: flex;
+    flex-direction: column;
+}
+.text1 > i {
+    font-size: 35px;
+    position: absolute;
+    right: 15rem;
+    top: 0;
+}
+.text1 {
+    color: white;
+    margin: 0px 100px;
+    text-align: center;
+}
+.footer-right-components .text2 {
+    display: flex;
+    flex-direction: column;
+    color: #B4B4B4;
+    text-align: end;
+}
+.text2 > strong {
+    color: white;
+}
+.text2 > i {
+    position: absolute;
+    right: -2rem;
+    font-size: 28px;
+    top: 0rem;
+}
+.Footer .container .social {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    padding-top: 20rem;
+}
+.social > i {
+    color: white;
+    margin: 0px 10px;
+    font-size: 23px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+.social > i:hover {
+    scale: 1.3;
+    transform: rotate(360deg);
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Montserrat:wght@600&family=Nunito+Sans:wght@300;400&family=Oswald:wght@300&family=Poppins:wght@500&family=Quicksand:wght@300&family=Roboto:wght@300;400&family=Ubuntu&display=swap');
+.Box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 870px;
+    background-image: url(backgroundBox3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: 80rem;
+}
+.Box3 .child-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+}
+
+.Box3 .child-box img{
+    position: absolute;
+    right: 0;
+}
+.child-box > strong {
+    color: mediumslateblue;
+    position: absolute;
+    left: 0;
+    top: 8rem;
+    font-size: 25px;
+}
+.child-box > span {
+    position: absolute;
+    left: 0;
+    font-family: 'Manrope', sans-serif;
+    top: 10.5rem;
+}
+.child-box > button {
+    background-color: #EBB44A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    left: 0;
+    position: absolute;
+    top: 17rem;
+    
+}
+
+.Box3 > img {
+    position: absolute;
+    left: 110px;
+    display: block;
+    margin-top: 20rem;
+}
+
+.Box3 > strong {
+    position: absolute;
+    right: 25rem;
+    font-size: 25px;
+    color: mediumslateblue;
+}
+.Box3 > span {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20.5rem;
+    top: 30rem;
+}
+.Box3 > span > span {
+    margin: 20px 0px;
+    font-weight: 1000;
+    transition: 0.3s ease-out;
+}
+.Box3 > span > span:hover {
+    transform: translateY(-5px);
+}
+.Box3 > span > span::before {
+    content: 'o';
+    background-color: mediumslateblue;
+    padding: 0px 6px;
+    position: relative;
+    right: 20px;
+    border-radius: 50%;
+    color: mediumslateblue;
+}
+.Box3 #lineBox3 {
+    position: absolute;
+    left: 46.2rem;
+    top: 12.5rem;
+}
+.Box3 #line2Box3 {
+    position: absolute;
+    left: 46.2rem;
+    top: 15.9rem;
+}
+.Box3 #telebelerim {
+    position: absolute;
+    left: auto;
+    top: 35rem;
+    width: 100%;
+}
+
+.Box3 #telebelerim2 {
+    position: absolute;
+    top: 50rem;
+    left: 36rem;
+    color: mediumslateblue;
+    font-size: 35px;
+    font-weight: 1000;
+}

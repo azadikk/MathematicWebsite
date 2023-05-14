@@ -1,0 +1,354 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    min-width: 960px;
+    max-width: 1140px;
+  }
+  .container .header {
+    min-width: 960px;
+    max-width: 1140px;
+    z-index: 0;
+  }
+  .container .header > h1 {
+    left: 14rem;
+  }
+  .container .dashboard-contents {
+    min-width: 960px;
+    max-width: 1140px;
+  }
+  .container .dashboard-contents .Up-Box-Wrapper {
+    min-width: 960px;
+    max-width: 1140px;
+  }
+  .container .dashboard-contents .Down-Box-Wrapper {
+    min-width: 960px;
+    max-width: 1140px;
+  }
+  .container .dashboard-contents {
+    display: flex;
+  }
+  .container .score-board {
+    min-width: 960px;
+    max-width: 1140px;
+    left: 13rem;
+  }
+
+  .container .about-content {
+    min-width: 960px;
+    max-width: 1140px;
+    left: 10rem;
+  }
+  .container .about-content .text {
+    min-width: 960px;
+    max-width: 1140px;
+    left: 20rem;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .container {
+    min-width: 540px;
+    max-width: 720px;
+  }
+  .container .header {
+    min-width: 960px;
+    max-width: 960px;
+    z-index: 0;
+  }
+  .container .header > h1 {
+    left: 3rem;
+  }
+  .container .header .profile {
+    left: 0;
+  }
+  .container .imtahanlarContent .search-area {
+    width: 130%;
+    left: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .container .imtahanlarContent .search-area .input {
+    top: -2rem;
+    position: absolute;
+  }
+  .container .imtahanlarContent .search-area .options {
+    position: absolute;
+    left: 11rem;
+    top: 1rem;
+  }
+  .imtahanlarContent .Boxes {
+    top: 2rem;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .container .dashboard-contents {
+    min-width: 540px;
+    max-width: 720px;
+  }
+  .container .dashboard-contents .Up-Box-Wrapper {
+    min-width: 540px;
+    max-width: 720px;
+  }
+  .container .dashboard-contents .Down-Box-Wrapper {
+    min-width: 540px;
+    max-width: 720px;
+  }
+  .dashboard-contents .Down-Box-Wrapper .dataitems {
+    top: 35rem;
+    position: relative;
+    right: 28rem;
+    font-size: 13px;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-1 {
+    position: relative;
+    bottom: 12rem;
+    width: 30%;
+    left: -8rem;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-2 {
+    position: absolute;
+    bottom: 10rem;
+    left: 17rem;
+  }
+
+  .container .score-board {
+    min-width: 540px;
+    max-width: 720px;
+    left: 0rem;
+  }
+
+  .container .about-content {
+    min-width: 540px;
+    max-width: 720px;
+    left: 10rem;
+  }
+  .container .about-content .text {
+    min-width: 520px;
+    max-width: 720px;
+    left: 20rem;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .container .header {
+    width: 100%;
+    z-index: 0;
+  }
+  .container .header > h1 {
+    left: 0.4rem;
+  }
+  .container .header .profile {
+    left: 4rem;
+    font-size: 15px;
+  }
+  .container .header .profile > img {
+    width: 18%;
+  }
+  .container .imtahanlarContent .search-area {
+    width: 100%;
+    left: 3rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .imtahanlarContent .search-area .input input[type="search"] {
+    width: 40%;
+  }
+  .container .imtahanlarContent .search-area .input {
+    top: -2rem;
+    position: absolute;
+  }
+  .container .imtahanlarContent .search-area .options {
+    position: absolute;
+    left: 1.5rem;
+    top: 1rem;
+  }
+  .imtahanlarContent .Boxes {
+    top: 2rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .container .dashboard-contents {
+    width: 100%;
+  }
+  .container .dashboard-contents .Up-Box-Wrapper {
+    width: 100%;
+  }
+  .container .dashboard-contents .Down-Box-Wrapper {
+    width: 100%;
+  }
+  .dashboard-contents .Down-Box-Wrapper .dataitems {
+    top: 35rem;
+    position: relative;
+    right: 22.5rem;
+    font-size: 10px;
+    width: 70%;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-1 {
+    position: relative;
+    bottom: 12rem;
+    width: 40%;
+    left: 0rem;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-2 {
+    position: absolute;
+    bottom: 10rem;
+    left: 17rem;
+    display: none;
+  }
+  .container .score-board {
+    width: 100%;
+    left: 0rem;
+  }
+  .container .score-board .items {
+    display: flex;
+    margin: 0;
+  }
+  .container .score-board .items .name {
+    font-size: 13px;
+  }
+  .container .score-board .items .points {
+    font-size: 13px;
+  }
+  .container .score-board .items .quotes {
+    font-size: 13px;
+  }
+
+  .container .about-content {
+    width: 100%;
+    left: 10rem;
+  }
+  .container .about-content .text {
+    width: 100%;
+    left: -8rem;
+    font-size: 10px;
+    position: relative;
+    top: 26rem;
+  }
+  .container .about-content .details {
+    width: 100%;
+    left: -4rem;
+    font-size: 10px;
+    position: relative;
+    top: 3rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .container {
+    width: 100%;
+  }
+  .container .header {
+    width: 100%;
+    z-index: 0;
+  }
+  .container .header > h1 {
+    left: 0.4rem;
+    font-size: 13px;
+    top: 0.5rem;
+  }
+  .container .header .profile {
+    left: 0rem;
+    font-size: 13px;
+    top: 1rem;
+  }
+  .container .header .profile > img {
+    width: 16%;
+  }
+  .container .imtahanlarContent .search-area {
+    width: 100%;
+    left: 3rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .imtahanlarContent .search-area .input input[type="search"] {
+    width: 30%;
+  }
+  .container .imtahanlarContent .search-area .input {
+    top: -2rem;
+    position: absolute;
+  }
+  .container .imtahanlarContent .search-area .options {
+    position: absolute;
+    left: 0rem;
+    top: 1rem;
+  }
+  .imtahanlarContent .Boxes {
+    top: 2rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .container .dashboard-contents {
+    width: 100%;
+  }
+  .container .dashboard-contents .Up-Box-Wrapper {
+    width: 100%;
+  }
+  .container .dashboard-contents .Down-Box-Wrapper {
+    width: 100%;
+  }
+  .dashboard-contents .Down-Box-Wrapper .dataitems {
+    top: 35rem;
+    position: relative;
+    right: 18.5rem;
+    font-size: 8px;
+    width: 70%;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-1 {
+    position: relative;
+    bottom: 12rem;
+    width: 50%;
+    left: 0rem;
+  }
+  .dashboard-contents .Up-Box-Wrapper .Box-2 {
+    position: absolute;
+    bottom: 10rem;
+    left: 17rem;
+    display: none;
+  }
+
+  .container .score-board {
+    width: 100%;
+    left: 0rem;
+  }
+  .container .score-board .items {
+    display: flex;
+    margin: 0;
+  }
+  .container .score-board .items .name {
+    font-size: 10px;
+  }
+  .container .score-board .items .points {
+    font-size: 10px;
+  }
+  .container .score-board .items .quotes {
+    font-size: 10px;
+  }
+  .container .score-board .items > img {
+    width: 20%;
+  }
+
+  .container .about-content {
+    width: 100%;
+    left: 10rem;
+  }
+  .container .about-content .text {
+    width: 100%;
+    left: -8rem;
+    font-size: 10px;
+    position: relative;
+    top: 26rem;
+  }
+  .container .about-content .details {
+    width: 100%;
+    left: -9rem;
+    font-size: 10px;
+    position: relative;
+    top: 3rem;
+  }
+}

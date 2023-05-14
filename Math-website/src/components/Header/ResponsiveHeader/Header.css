@@ -1,0 +1,107 @@
+.header-resp {
+  background-color: white;
+  width: 100%;
+  left: 0;
+  height: 75px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 11;
+  top: 0rem;
+}
+.header-resp > i {
+  position: absolute;
+  top: 0rem;
+  font-size: 45px;
+  cursor: pointer;
+  color: mediumslateblue;
+  transition: 0.1s ease-out;
+}
+.header-resp > i:hover {
+  scale: 1.1;
+  border-radius: 20px;
+}
+.header-resp > i:active {
+  transform: translateY(5px);
+}
+.header-resp .navbar {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 11.6rem;
+  background-color: #282828;
+  animation: topCome 0.3s ease-out;
+  z-index: 99;
+}
+
+@keyframes topCome {
+  0% {
+    top: -11.6rem;
+  }
+  100% {
+    top: 11.6;
+  }
+}
+
+.header-resp .navbar .ul {
+  margin: 20px 0px;
+  color: white;
+  list-style-type: none;
+  padding: 5px 60px;
+}
+.header-resp .navbar .ul li {
+  background-color: mediumslateblue;
+  font-weight: 1000;
+  padding: 8px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+.header-resp .navbar .ul li:hover {
+  scale: 1.1;
+  background-color: #383535;
+}
+.header-resp > #img {
+  position: absolute;
+  left: 1rem;
+}
+.header-resp .RegisterItems {
+  position: relative;
+  left: 8rem;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 320px) {
+  .header-resp {
+    width: 50%;
+  }
+  .header-resp .RegisterItems {
+    font-size: 11px;
+    left: 4rem;
+    top: 0.5rem;
+    position: absolute;
+  }
+  .header-resp > #img {
+    display: none;
+  }
+  .header-resp > i {
+    left: 0;
+  }
+  .header-resp .navbar {
+    font-size: 10px;
+    z-index: 99;
+  }
+  .navbar .ul {
+    left: -4rem;
+    position: relative;
+  }
+  .header-resp .navbar .ul li {
+    background-color: transparent;
+    width: 100%;
+  }
+  .header-resp .navbar .ul li:hover {
+    background-color: transparent;
+  }
+}

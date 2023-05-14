@@ -1,0 +1,284 @@
+.Signup-Area .homeBtn {
+  position: absolute;
+  z-index: 5;
+  top: 1rem;
+  right: 1rem;
+  padding: 8px 40px;
+  border: 1px solid #cecece;
+  border-radius: 10px;
+  background-color: mediumslateblue;
+  color: white;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.homeBtn #geri {
+  position: absolute;
+  left: 0.5rem;
+  font-size: 25px;
+  top: 0;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.homeBtn:hover {
+  scale: 1.2;
+  background-color: white;
+  color: black;
+}
+.homeBtn:hover #geri {
+  color: black;
+}
+
+.Signup-Area {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: white;
+}
+.Signup-Area .signup-wrapper {
+  position: relative;
+  width: 95%;
+  margin: auto;
+  height: 120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5ff;
+}
+.signup-wrapper > img {
+  position: absolute;
+  left: 0;
+  width: 35%;
+  border-radius: 10px 100px;
+}
+
+.signup-wrapper .signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 10%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgb(0, 0, 0, 0.2);
+}
+.signup-form .create-account {
+  position: absolute;
+  top: 1rem;
+  font-size: 22px;
+  font-weight: 1000;
+  left: 2rem;
+}
+.signup-form .i-am-a {
+  position: absolute;
+  top: 5rem;
+  left: 2rem;
+  font-weight: 700;
+}
+.signup-form #check1 {
+  position: absolute;
+  left: 2rem;
+  top: 7rem;
+  width: 18px;
+  height: 18px;
+}
+.signup-form .student {
+  position: absolute;
+  left: 3.5rem;
+  top: 7rem;
+  font-weight: 800;
+  font-size: 14px;
+}
+.signup-form #check2 {
+  position: absolute;
+  left: 10rem;
+  top: 7rem;
+  width: 18px;
+  height: 18px;
+}
+
+.signup-form .teacher {
+  position: absolute;
+  left: 11.4rem;
+  top: 7rem;
+  font-weight: 800;
+  font-size: 14px;
+}
+.signup-form .date {
+  left: 2rem;
+  position: absolute;
+  top: 10rem;
+  color: #8a7e7e;
+}
+.signup-form input[type="date"] {
+  position: absolute;
+  left: 2rem;
+  width: 80%;
+  height: 7%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cecece;
+  top: 11.5rem;
+}
+.signup-form .email {
+  left: 2rem;
+  position: absolute;
+  top: 15rem;
+  color: #8a7e7e;
+}
+.signup-form input[type="email"] {
+  position: absolute;
+  left: 2rem;
+  width: 80%;
+  height: 7%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cecece;
+  top: 16.5rem;
+}
+.signup-form .password {
+  left: 2rem;
+  position: absolute;
+  top: 20rem;
+  color: #8a7e7e;
+}
+.signup-form input[type="password"] {
+  position: absolute;
+  left: 2rem;
+  width: 80%;
+  height: 7%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cecece;
+  top: 21.5rem;
+}
+.signup-form input[type="text"] {
+  position: absolute;
+  left: 2rem;
+  width: 80%;
+  height: 7%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cecece;
+  top: 21.5rem;
+}
+.signup-form #check3 {
+  position: absolute;
+  left: 2rem;
+  top: 25rem;
+  width: 20px;
+  height: 20px;
+}
+.signup-form .i-accept {
+  position: absolute;
+  left: 3.5rem;
+  top: 24.5rem;
+  font-size: 14px;
+}
+.signup-form .privacy-policy {
+  position: absolute;
+  left: 3.5rem;
+  top: 25.5rem;
+  font-size: 14px;
+  color: blue;
+}
+.signup-form .privacy-policy:hover {
+  text-decoration: underline;
+}
+.signup-form .signupBtn {
+  position: absolute;
+  bottom: 6rem;
+  padding: 10px 130px;
+  left: 2rem;
+  border: 1px solid #cecece;
+  background-color: mediumslateblue;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+.signup-form .signupBtn:hover {
+  background-color: mediumorchid;
+}
+.signup-form .or {
+  position: absolute;
+  bottom: 3.5rem;
+  left: 47%;
+}
+.or::before {
+  content: "";
+  border-bottom: 1px solid #c5c4c4;
+  position: absolute;
+  width: 1000%;
+  left: 1.5rem;
+  top: 0.8rem;
+}
+.or::after {
+  content: "";
+  border-bottom: 1px solid #c5c4c4;
+  position: absolute;
+  width: 1000%;
+  right: 1.5rem;
+  top: 0.8rem;
+}
+.signup-form .google {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 2.7rem;
+  padding: 10px 70px;
+  background-color: white;
+  border: 1px solid #cecece;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #8a7e7e;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+.google:hover {
+  scale: 1.1;
+  color: white;
+  background-color: darkslateblue;
+}
+.signup-form .google > i {
+  position: absolute;
+  left: 2rem;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  color: #212529;
+}
+
+.signup-form #show {
+  position: absolute;
+  right: 3.5rem;
+  top: 22.2rem;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+.signup-form #show:hover {
+  scale: 1.2;
+}
+.signup-form #hide {
+  position: absolute;
+  right: 3.5rem;
+  top: 22.2rem;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+.signup-form #hide:hover {
+  scale: 1.2;
+}
+
+@media only screen and (max-width: 768px) {
+  .signup-wrapper > img {
+    display: none;
+  }
+  .signup-wrapper .signup-form {
+    width: 100%;
+    left: 0;
+  }
+}

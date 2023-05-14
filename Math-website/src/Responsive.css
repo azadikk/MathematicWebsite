@@ -1,0 +1,610 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .Content {
+    max-width: 1140px;
+    min-width: 960px;
+  }
+  .Content .carousel {
+    max-width: 1140px;
+    min-width: 960px;
+  }
+  .Content .carousel-left-content h1 {
+    position: absolute;
+    right: 40rem;
+  }
+  .Content .carousel-left-content h2 {
+    position: absolute;
+    right: 42rem;
+    top: 7.5rem;
+  }
+  .Content .carousel-left-content .TesteBasla {
+    left: 2rem;
+  }
+  .Content .carousel-left-content .DahaEtrafli {
+    left: 8rem;
+  }
+  .Content .Box1 {
+    max-width: 1140px;
+    min-width: 960px;
+  }
+  .Content .Box2 {
+    max-width: 1140px;
+    min-width: 960px;
+  }
+  .Content .Box3 {
+    max-width: 1140px;
+    min-width: 960px;
+  }
+  .Footer {
+    max-width: 1140px;
+    min-width: 960px;
+  }
+  .Footer .container {
+    max-width: 1140px;
+    min-width: 960px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .Header {
+    min-width: 540px;
+    max-width: 720px;
+  }
+  .Header .Header-ul {
+    font-size: 14px;
+    width: 60%;
+  }
+
+  .Content {
+    min-width: 540px;
+    max-width: 720px;
+  }
+
+  .Content .carousel {
+    max-width: 720px;
+    min-width: 540px;
+  }
+  .Content .carousel > img {
+    left: 0;
+  }
+  .carousel #leftBtn {
+    left: 28rem;
+    top: 6rem;
+  }
+  .carousel #rightBtn {
+    left: 33rem;
+    top: 6rem;
+  }
+  .Content .carousel-left-content h1 {
+    display: none;
+  }
+  .Content .carousel-left-content h2 {
+    position: absolute;
+    right: 24.5rem;
+    top: 12rem;
+  }
+  .Content .carousel-left-content .TesteBasla {
+    left: 2rem;
+  }
+  .Content .carousel-left-content .DahaEtrafli {
+    left: 8rem;
+  }
+  .Content .Box1 {
+    max-width: 720px;
+    min-width: 540px;
+  }
+  .Content .Box1 .area1 {
+    font-size: 13px;
+  }
+  .TesteBasla {
+    font-size: 10px;
+  }
+  .DahaEtrafli {
+    font-size: 10px;
+  }
+
+  .Content .Box2 {
+    max-width: 720px;
+    min-width: 540px;
+  }
+  .Content .Box2 .images {
+    max-width: 720px;
+    min-width: 960px;
+    left: 10rem;
+  }
+  .Content .Box2 .images .step1-items {
+    margin: 0px;
+  }
+  .Content .Box2 .images .step2-items {
+    margin: 0px;
+  }
+  .Content .Box2 .images .step3-items {
+    margin: 0px;
+  }
+  .step3-items::after {
+    display: none;
+  }
+  .Content .Box3 {
+    max-width: 720px;
+    min-width: 540px;
+  }
+  .Content .Box3 .child-box > img {
+    width: 60%;
+  }
+  .child-box > strong {
+    top: 0;
+  }
+  .child-box > span {
+    top: 3rem;
+  }
+  .child-box .signup {
+    top: 11rem;
+    font-size: 12px;
+    font-weight: 1000;
+  }
+  .Box3 #kitaplar {
+    width: 40%;
+    left: 19rem;
+  }
+  .Box3 > strong {
+    top: 20rem;
+    left: 4rem;
+    width: 30%;
+  }
+  .Content .Box3 > span {
+    top: 24.5rem;
+    font-size: 13px;
+    left: 3rem;
+  }
+  .Content .Box3 #line2Box3 {
+    display: none;
+  }
+  .Content .Box3 #lineBox3 {
+    display: none;
+  }
+  .Content .Box3 #telebelerim {
+    width: 140%;
+  }
+  .Content .Box3 #telebelerim2 {
+    left: 13.5rem;
+  }
+
+  .Footer {
+    max-width: 720px;
+    min-width: 540px;
+  }
+  .Footer .container {
+    max-width: 720px;
+    min-width: 540px;
+  }
+  .Footer .container:nth-child(1) {
+    width: 100%;
+    margin: 0px 20px;
+  }
+  .Footer .container .layout1 {
+    bottom: 3.5rem;
+    font-size: 10px;
+    left: 0;
+  }
+  .Footer .container .layout2 {
+    bottom: 8rem;
+    font-size: 13px;
+  }
+  .Footer .container .layout3 {
+    bottom: 3rem;
+    right: 0;
+    font-size: 13px;
+  }
+  .Footer .container .social {
+    left: 24rem;
+  }
+  .Footer .footer-right-components {
+    width: 100%;
+    font-size: 10px;
+    right: 12rem;
+  }
+  .footer-right-components i {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .Header {
+    display: none;
+  }
+
+  .Content {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .Content .carousel {
+    min-width: 100%;
+    min-width: 100%;
+  }
+  .Content .carousel > img {
+    left: 0;
+  }
+  .carousel #leftBtn {
+    left: 17rem;
+    top: 6rem;
+  }
+  .carousel #rightBtn {
+    left: 22rem;
+    top: 6rem;
+  }
+
+  .Content .carousel-left-content h2 {
+    position: absolute;
+    right: 17.2rem;
+    top: 8rem;
+  }
+  .Content .carousel > h1 {
+    display: none;
+  }
+  .Content .carousel-left-content h1 {
+    left: 1rem;
+    width: 100%;
+    font-size: 15px;
+  }
+  .Content .carousel-left-content .TesteBasla {
+    left: 1rem;
+    top: 21rem;
+  }
+  .Content .carousel-left-content .DahaEtrafli {
+    left: 5rem;
+    top: 21rem;
+  }
+
+  .Content .Box1 {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .Content .Box1 .area1 {
+    font-size: 13px;
+    display: none;
+  }
+  .Content .Box1 .area2 {
+    font-size: 13px;
+    display: none;
+  }
+  .Content .Box1 .area3 {
+    font-size: 13px;
+  }
+  .Content .Box1 .area4 {
+    font-size: 13px;
+  }
+  .TesteBasla {
+    font-size: 10px;
+  }
+  .DahaEtrafli {
+    font-size: 10px;
+  }
+
+  .Content .Box2 {
+    min-width: 100%;
+    min-width: 100%;
+  }
+  .Content .Box2 .images {
+    min-width: 100%;
+    min-width: 100%;
+    left: 10rem;
+  }
+  .Content .Box2 .images .step1-items {
+    margin: 0px;
+  }
+  .Content .Box2 .images .step2-items {
+    margin: 0px;
+  }
+  .Content .Box2 .images .step3-items {
+    margin: 0px;
+  }
+  .step3-items::after {
+    display: none;
+  }
+  .Content .Box3 {
+    min-width: 100%;
+    min-width: 100%;
+  }
+  .Content .Box3 .child-box > img {
+    width: 60%;
+  }
+  .child-box > strong {
+    top: 0;
+    font-size: 18px;
+    left: -2rem;
+  }
+  .child-box > span {
+    top: 3rem;
+    left: -2rem;
+    font-size: 13px;
+  }
+  .child-box .signup {
+    top: 9rem;
+    left: -2rem;
+    font-size: 12px;
+    font-weight: 1000;
+    padding: 5px 20px;
+  }
+  .Box3 #kitaplar {
+    width: 40%;
+    left: 15rem;
+  }
+  .Box3 > strong {
+    top: 20rem;
+    left: 1rem;
+    width: 40%;
+    font-size: 20px;
+  }
+  .Content .Box3 > span {
+    top: 22rem;
+    font-size: 12px;
+    left: 2rem;
+    width: 100%;
+  }
+  .Content .Box3 > span::before {
+    padding: 0px 3px;
+  }
+  .Content .Box3 #line2Box3 {
+    display: none;
+  }
+  .Content .Box3 #lineBox3 {
+    display: none;
+  }
+  .Content .Box3 #telebelerim {
+    width: 140%;
+  }
+  .Content .Box3 #telebelerim2 {
+    left: 7.5rem;
+  }
+
+  .Footer {
+    min-width: 100%;
+    min-width: 100%;
+  }
+  .Footer .container {
+    min-width: 100%;
+    min-width: 100%;
+  }
+  .Footer .container:nth-child(1) {
+    width: 100%;
+    margin: 0px 20px;
+  }
+  .Footer .container .layout1 {
+    bottom: 3.5rem;
+    font-size: 10px;
+    left: 0.5rem;
+  }
+  .Footer .container .layout2 {
+    bottom: 8rem;
+    font-size: 10px;
+  }
+  .Footer .container .layout3 {
+    bottom: 3rem;
+    right: 0;
+    font-size: 10px;
+  }
+  .Footer .container .social {
+    left: 7.5rem;
+    bottom: -3rem;
+  }
+  .Footer .footer-right-components {
+    width: 120%;
+    font-size: 10px;
+    right: 1.5rem;
+    gap: 70px;
+  }
+  .footer-right-components i {
+    display: none;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .Content {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .Content .carousel {
+    min-width: 100%;
+    min-width: 100%;
+  }
+  .Content .carousel > img {
+    left: 0;
+  }
+  .carousel #leftBtn {
+    left: 17rem;
+    top: 6rem;
+    display: none;
+  }
+  .carousel #rightBtn {
+    left: 22rem;
+    top: 6rem;
+    display: none;
+  }
+
+  .Content .carousel-left-content h2 {
+    position: absolute;
+    right: 4rem;
+    top: 8rem;
+    font-size: 11px;
+  }
+  .Content .carousel > h1 {
+    display: none;
+  }
+  .Content .carousel-left-content h1 {
+    left: 1rem;
+    width: 100%;
+    font-size: 12px;
+  }
+  .Content .carousel-left-content .TesteBasla {
+    left: 0rem;
+    top: 23rem;
+    padding: 5px 20px;
+  }
+  .Content .carousel-left-content .DahaEtrafli {
+    left: -2rem;
+    top: 24.5rem;
+    padding: 5px 20px;
+  }
+
+  .Content .Box1 {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .Content .Box1 .area1 {
+    font-size: 13px;
+    display: none;
+  }
+  .Content .Box1 .area2 {
+    font-size: 13px;
+    display: none;
+  }
+  .Content .Box1 .area3 {
+    font-size: 13px;
+    display: none;
+  }
+  .Content .Box1 .area4 {
+    font-size: 13px;
+  }
+  .TesteBasla {
+    font-size: 10px;
+  }
+  .DahaEtrafli {
+    font-size: 10px;
+  }
+
+  .Content .Box2 {
+    min-width: 100%;
+    min-width: 100%;
+  }
+  .Content .Box2 .images {
+    min-width: 100%;
+    min-width: 100%;
+    left: 10rem;
+    display: none;
+  }
+  .Content .Box2 .images .step1-items {
+    margin: 0px;
+  }
+  .Content .Box2 .images .step2-items {
+    margin: 0px;
+  }
+  .Content .Box2 .images .step3-items {
+    margin: 0px;
+  }
+  .step3-items::after {
+    display: none;
+  }
+  .Content .Box3 {
+    min-width: 100%;
+    min-width: 100%;
+  }
+  .Content .Box3 .child-box > img {
+    width: 100%;
+  }
+  .child-box > strong {
+    top: -2rem;
+    font-size: 17px;
+    left: 0rem;
+  }
+  .child-box > span {
+    top: 3rem;
+    left: -2rem;
+    font-size: 13px;
+    display: none;
+  }
+  .child-box .signup {
+    top: 9rem;
+    left: 2rem;
+    font-size: 12px;
+    font-weight: 1000;
+    padding: 5px 20px;
+  }
+  .Box3 #kitaplar {
+    width: 40%;
+    left: 15rem;
+    display: none;
+  }
+  .Box3 > strong {
+    top: 20rem;
+    left: 1rem;
+    width: 100%;
+    font-size: 20px;
+  }
+  .Content .Box3 > span {
+    top: 22rem;
+    font-size: 11px;
+    left: 1rem;
+    width: 100%;
+  }
+  .Content .Box3 > span::before {
+    padding: 0px 3px;
+  }
+  .Content .Box3 #line2Box3 {
+    display: none;
+  }
+  .Content .Box3 #lineBox3 {
+    display: none;
+  }
+  .Content .Box3 #telebelerim {
+    width: 140%;
+  }
+  .Content .Box3 #telebelerim2 {
+    left: 1rem;
+    font-size: 26px;
+  }
+
+  .Footer {
+    min-width: 100%;
+    min-width: 100%;
+  }
+  .Footer .container {
+    min-width: 80%;
+    min-width: 80%;
+  }
+  .Footer .container:nth-child(1) {
+    width: 100%;
+    margin: 0px;
+  }
+  .Footer .container .layout1 {
+    bottom: 20rem;
+    font-size: 7px;
+    left: 0.5rem;
+    width: 100%;
+  }
+  .Footer .container .layout2 {
+    bottom: -3rem;
+    font-size: 7px;
+    width: 100%;
+    left: 0.5rem;
+  }
+  .Footer .container .layout2 > h2 {
+    font-size: 10px;
+  }
+  .Footer .container .layout3 {
+    bottom: -3rem;
+    right: 0;
+    font-size: 7px;
+  }
+  .Footer .container .layout3 > h2 {
+    font-size: 10px;
+  }
+  .Footer .container .social {
+    left: 0.5rem;
+    bottom: -3rem;
+  }
+  .Footer .container .social > i {
+    font-size: 18px;
+  }
+  .Footer .footer-right-components {
+    width: 50%;
+    font-size: 10px;
+    right: 1.5rem;
+    gap: 0px;
+    display: none;
+  }
+  .footer-right-components i {
+    display: none;
+  }
+}

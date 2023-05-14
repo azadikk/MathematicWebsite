@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Montserrat:wght@600&family=Nunito+Sans:wght@300;400&family=Oswald:wght@300&family=Poppins:wght@500&family=Quicksand:wght@300&family=Roboto:wght@300;400&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.Header {
+    z-index: 6;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Header .Header-ul {
+    display: flex;
+    list-style-type: none;
+    position: relative;
+}
+.Header-ul li {
+    margin: 0px 20px;
+    color: black;
+}
+.Header-ul li:hover {
+    font-weight: 1000;
+    cursor: pointer;
+}
+.Header img {
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+.Header img:hover {
+    transform: translateX(-5px);
+}
+
+.RegisterItems {
+    display: flex;
+}
+.RegisterItems button {
+    list-style-type: none;
+    margin: 0px 20px;
+}
+.RegisterItems .login {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid mediumslateblue;
+    background-color: white;
+    color: mediumslateblue;
+    transition: 0.2s ease-out;
+}
+.login:hover {
+    background-color: mediumslateblue;
+    color: white;
+    cursor: pointer;
+}
+.RegisterItems .signup {
+    padding: 10px 20px;
+    background-color: mediumslateblue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.2s ease-out;
+}
+.signup:hover {
+    background-color: white;
+    color: mediumslateblue;
+    cursor: pointer;
+}
